@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.5;
+    color: #333;
+    background: rgb(240, 244, 249);
+  }
+  
+  form {
+    margin-top: 1em;
+  }
+  
+  .error-message {
+    background: maroon;
+    color: white;
+    font-size: 2em;
+  }

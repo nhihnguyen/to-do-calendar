@@ -1,0 +1,25 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nhi Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "type": "module",
+  "description": ""
+}

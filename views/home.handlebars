@@ -1,0 +1,18 @@
+
+<h1>Welcome {{user}}</h1>
+
+<form action="/tasks" method="POST">
+    <label>New Task Description: </label>
+    <input type="text" name="tasks" placeholder="enter task description">
+    <input type="submit">
+</form>
+
+<h1>Tasks: </h1>
+<ul>
+    {{#task}}
+    <li>{{task_id}}: {{task_desc}} - {{is_complete}}</li>
+    {{/task}}
+</ul>
+
+
+<a href="/logout">Logout</a>
